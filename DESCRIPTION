@@ -4,7 +4,7 @@ Title: A Convenient R Interface with the OpenAI 'ChatGPT' API
 Version: 0.6.1
 Authors@R: 
     person("Wanjun", "Gu", , "wanjun.gu@ucsf.edu", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0002-7342-7000"))
+           comment = c(ORCID = "0000-0002-7342-7000")),
     person("David", "Bishop", , "dbishop@andrew.cmu.edu")
 Description: A convenient interface with the OpenAI 'ChatGPT' API <https://openai.com/api>. 'gptr' allows you to interact with 'ChatGPT', a powerful language model, for various natural language processing tasks. The 'gptr' R package makes talking to 'ChatGPT' in R super easy. It helps researchers and data folks by simplifying the complicated stuff, like asking questions and getting answers. With 'gptr', you can use 'ChatGPT' in R without any hassle, making it simpler for everyone to do cool things with language!
 License: MIT + file LICENSE
