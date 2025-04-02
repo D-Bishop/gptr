@@ -26,7 +26,7 @@
 
 get_response = function(user_input = "what is a p-value in statistics?",
                         system_specification = "You are a helpful assistant.",
-                        model = "gpt-3.5-turbo",
+                        model = "gpt-4o-mini-2024-07-18",
                         api_key = Sys.getenv("OPENAI_API_KEY"),
                         print_response = TRUE){
   
@@ -56,11 +56,3 @@ get_response = function(user_input = "what is a p-value in statistics?",
   return(result)
   
 }
-
-
-
-
-
-
-
-
