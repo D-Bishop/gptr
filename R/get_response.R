@@ -43,6 +43,7 @@ get_response = function(user_input = "what is a p-value in statistics?",
           {"role": "system", "content": "', system_specification, '"},
           {"role": "user", "content": "', user_input, '"}
           ]}')
+  cat(data)
   
   result = getURL(url, httpheader = headers, postfields = data)
   result = fromJSON(result)
